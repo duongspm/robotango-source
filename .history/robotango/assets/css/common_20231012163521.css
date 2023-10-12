@@ -2,7 +2,7 @@
 
 /* Reset */
 :root{
-    --color-primary:#DF0011;
+    --color-primary:red;
 }
 html {
     font-size: 62.5%;
@@ -204,7 +204,7 @@ header {
     max-width: 128px;
     width: 100%;
     border-radius: 100px;
-    padding: 8px 0 10px;
+    padding: 10px 0;
     text-align: center;
     color: #ffffff;
     font-weight: bold;

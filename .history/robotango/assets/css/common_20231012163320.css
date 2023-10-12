@@ -2,7 +2,7 @@
 
 /* Reset */
 :root{
-    --color-primary:#DF0011;
+    --color-primary:red;
 }
 html {
     font-size: 62.5%;
@@ -197,23 +197,7 @@ header {
 }
 .header-nav{
     width: 23.637%;
-    display: flex;
-    justify-content: space-between;
 }
-.btn-pill-sm{
-    max-width: 128px;
-    width: 100%;
-    border-radius: 100px;
-    padding: 8px 0 10px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    line-height: 1;
-}
-.btn-pill__sm--red{
-    background: var(--color-primary);
-}
-
 .menu a.is-active,
 .menu a {
     transition: 0.2s linear;
@@ -232,7 +216,11 @@ header {
 .menu li:last-child{
     margin-right: 0;
 }
-
+.btn-pill-sm{
+    max-width: 128px;
+    width: 100%;
+    border
+}
 #pagetop {
     position: fixed;
     bottom: 10px;
