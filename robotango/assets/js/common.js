@@ -96,3 +96,18 @@ $(window).on('load', function () {
         }
     }
 });
+
+// FAQ
+$(function(){
+    $('.faq-item__head').click(function() {
+        var current = $(this).parent().find('.faq-item__hide').slideToggle(200, function() {
+            if (current.is(":hidden")) {
+                $(this).parent().find('.faq-item__head').removeClass('is-open');
+                ;
+            } else {
+                $(this).parent().find('.faq-item__head').addClass('is-open');
+                ;
+            }
+        });
+    });
+});
