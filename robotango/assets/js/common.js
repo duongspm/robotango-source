@@ -21,7 +21,7 @@ $(function () {
         dirRegExp = new RegExp(dir.replace(/\/$/, '') + "$");
 
     if ($('body').hasClass("toppage")) {
-        $('a.menuTop').addClass('is-active');
+        // $('a.menuTop').addClass('is-active');
     } else {
         $('.menu > li > a').each(function () {
             if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
@@ -111,3 +111,9 @@ $(function(){
         });
     });
 });
+
+const blurHeader = () =>{
+    const header = document.getElementById('header')
+    this.scrollY >= 50 ? header.classList.add('blur-header') : header.classList.remove('blur-header')
+}
+window.addEventListener('scroll', blurHeader)
