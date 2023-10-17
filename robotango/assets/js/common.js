@@ -55,6 +55,21 @@ $(function () {
     });
 });
 
+// Menu Child
+$(function(){
+    $('.menu-child').click(function() {
+        var current = $(this).parent().find('.menu-child__wrap').slideToggle(200, function() {
+            if (current.is(":hidden")) {
+                $(this).parent().find('.menu-child').removeClass('is-open');
+                ;
+            } else {
+                $(this).parent().find('.menu-child').addClass('is-open');
+                ;
+            }
+        });
+    });
+});
+
 // Pagetop
 $(function () {
     $(window).scroll(function () {
@@ -110,6 +125,37 @@ $(function(){
             }
         });
     });
+});
+
+// Top js
+$(function () { 
+    $('.js-brand').slick({
+        slidesToShow: 13,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 5000,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+    
+        ],
+    })
 });
 
 const blurHeader = () =>{
