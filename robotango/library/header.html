@@ -8,9 +8,74 @@
             </h1>
             <div id="btn-menu"><span></span><span></span><span></span></div>
             <div class="header-wrap">
-                <ul class="menu">
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                RoboTANGOとは <i class="icon-downArrow"></i>
+                            </div>
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>RoboTANGOとは</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="{$root}service/">RoboTANGOとは</a></li>
+                                                <li><a href="">動作実績</a></li>
+                                                <li><a href="">サポート体制</a></li>
+                                                <li><a href="">導入の流れ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                活用シーン <i class="icon-downArrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="{$root}business/" class="nav__link">料金・プラン</a>
+                        </li>
+
+                        <li>
+                            <a href="{$root}pcaf/" class="nav__link">導入事例</a>
+                        </li>
+                        
+                        <!--=============== DROPDOWN 3 ===============-->
+                        <li class="dropdown__item">                        
+                            <div class="nav__link dropdown__button">
+                                お役立ち情報 <i class="icon-downArrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <ul class="menu">
                     <li class="menu-child">
-                        <a class="icon-downArrow" href="{$root}service/">RoboTANGOとは</a>
+                        <div class="menu-item icon-downArrow">RoboTANGOとは</div>
                         <div class="menu-child__wrap">
                             <div class="menu-child__outer">
                                 <div class="menu-child__txt">
@@ -28,7 +93,7 @@
                         </div>
                     </li>
                     <li class="menu-child">
-                        <a class="icon-downArrow" href="{$root}a/">活用シーン</a>
+                        <a class="menu-item icon-downArrow" href="{$root}a/">活用シーン</a>
                         <div class="menu-child__wrap">
                             <div class="menu-child__outer">
                                 <div class="menu-child__txt">
@@ -44,10 +109,10 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="{$root}business/">料金・プラン</a></li>
-                    <li><a href="{$root}gresb/">導入事例</a></li>
+                    <li><a class="menu-item" href="{$root}business/">料金・プラン</a></li>
+                    <li><a class="menu-item" href="{$root}gresb/">導入事例</a></li>
                     <li class="menu-child">
-                        <a class="icon-downArrow" href="{$root}pcaf/">お役立ち情報</a>
+                        <a class="menu-item icon-downArrow" href="{$root}pcaf/">お役立ち情報</a>
                         <div class="menu-child__wrap">
                             <div class="menu-child__outer">
                                 <div class="menu-child__txt">
@@ -62,8 +127,8 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="{$root}seminar/">お問い合わせ</a></li>
-                </ul>
+                    <li><a class="menu-item" href="{$root}seminar/">お問い合わせ</a></li>
+                </ul> -->
                 <div class="header-nav">
                     <a class="btn-pill-sm btn-pill__sm--red" href="#">無料トライアル</a>
                     <a class="btn-pill-sm btn-pill__sm--darkblue" href="#">サービス資料</a>

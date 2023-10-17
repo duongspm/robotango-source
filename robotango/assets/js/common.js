@@ -23,7 +23,7 @@ $(function () {
     if ($('body').hasClass("toppage")) {
         // $('a.menuTop').addClass('is-active');
     } else {
-        $('.menu > li > a').each(function () {
+        $('.menu > li > .menu-item').each(function () {
             if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
                 $(this).addClass('is-active');
             }
@@ -57,13 +57,13 @@ $(function () {
 
 // Menu Child
 $(function(){
-    $('.menu-child').click(function() {
-        var current = $(this).parent().find('.menu-child__wrap').slideToggle(200, function() {
+    $('.dropdown__button').click(function() {
+        var current = $(this).parent().find('.dropdown__container').slideToggle(300, function() {
             if (current.is(":hidden")) {
-                $(this).parent().find('.menu-child').removeClass('is-open');
+                $(this).parent().find('.dropdown__button').removeClass('is-open');
                 ;
             } else {
-                $(this).parent().find('.menu-child').addClass('is-open');
+                $(this).parent().find('.dropdown__button').addClass('is-open');
                 ;
             }
         });
