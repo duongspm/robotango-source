@@ -23,7 +23,7 @@ $(function () {
     if ($('body').hasClass("toppage")) {
         // $('a.menuTop').addClass('is-active');
     } else {
-        $('.menu > li > .menu-item').each(function () {
+        $('.nav__list > li > .nav__link').each(function () {
             if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
                 $(this).addClass('is-active');
             }
@@ -149,7 +149,7 @@ $(function () {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                 },
             },
