@@ -114,13 +114,13 @@ $(window).on('load', function () {
 
 // FAQ
 $(function(){
-    $('.faq-item__head').click(function() {
-        var current = $(this).parent().find('.faq-item__hide').slideToggle(200, function() {
+    $('.js-faq-show').click(function() {
+        var current = $(this).parent().find('.js-faq-hide').slideToggle(200, function() {
             if (current.is(":hidden")) {
-                $(this).parent().find('.faq-item__head').removeClass('is-open');
+                $(this).parent().find('.js-faq-show').removeClass('is-open');
                 ;
             } else {
-                $(this).parent().find('.faq-item__head').addClass('is-open');
+                $(this).parent().find('.js-faq-show').addClass('is-open');
                 ;
             }
         });
@@ -130,14 +130,16 @@ $(function(){
 // Top js
 $(function () { 
     $('.js-brand').slick({
-        slidesToShow: 13,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 5000,
-        pauseOnHover: false,
-        cssEase: 'linear',
+        autoplay: true, 
+        autoplaySpeed: 0, 
+        speed: 4166, 
+        cssEase: "linear", 
+        variableWidth: true,
+        slidesToShow: 1, 
+        swipe: false, 
         arrows: false,
+        pauseOnFocus: false, 
+        pauseOnHover: false, 
         responsive: [
             {
                 breakpoint: 992,

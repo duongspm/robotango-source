@@ -1,0 +1,28 @@
+check
+
+⚠️⚠️⚠️XUẤT LẠI CHỮ FAQ✅
+CASE4：介護・看護用電子カルテの作成・複製
+
+介護福祉士が当日電子カルテに
+その日の情報を入力✅
+
+case/index.html
+	strong ✅
+
+.company__group ✅
+--------
+sp
+ behind__bg
+ behind__txt (seminar)
+----------
+
+
+index.html
+service/index.html
+scene/index.html
+scene/medical/index.html
+case/index.html
+koyotoki/index.html
+useful/index.html
+seminar/index.html
+faq/index.html
