@@ -1,5 +1,18 @@
 check
+-------------------
 
+- faq:
+	7: RoboTANGOはどんな人が導入していますか？✅✔☑
+	8: 無料トライアルはありますか？✅✔☑
+	10: サポート体制はありますか？どんなサポートをしてくれますか？ xuong dong btn✅✔☑
+	21: 導入までの流れを教えて下さい。 xuong dong ?? dong ke ben✅✔☑
+	26: 契約期間中のプラン変更は可能ですか？✅✔☑
+-- dang sua -- 
+faq✅✔☑
+case✅✔☑
+kotoyoki✅✔☑
+
+-------------------
 ⚠️⚠️⚠️XUẤT LẠI CHỮ FAQ✅
 CASE4：介護・看護用電子カルテの作成・複製
 
@@ -26,3 +39,18 @@ koyotoki/index.html
 useful/index.html
 seminar/index.html
 faq/index.html
+
+-----------------------
+
+trang 1: https://arcavietnam.asia/duongg/robotango-test/
+trang 2: https://arcavietnam.asia/duongg/robotango-test/service/index.html
+trang 3: https://arcavietnam.asia/duongg/robotango-test/scene/index.html
+trang 4: https://arcavietnam.asia/duongg/robotango-test/scene/medical/index.html
+trang 5: https://arcavietnam.asia/duongg/robotango-test/case/index.html
+trang 6: https://arcavietnam.asia/duongg/robotango-test/koyotoki/index.html
+trang 7: https://arcavietnam.asia/duongg/robotango-test/useful/index.html
+trang 8: https://arcavietnam.asia/duongg/robotango-test/seminar/index.html
+trang 12: https://arcavietnam.asia/duongg/robotango-test/faq/index.html
+
+RoboTANGOのテクニカルエンジニアとして、営業支援や顧客へのテクニカルサポート、ヘルプセンターのコンテンツ追加などをメイン業務とし、その他、システム担当者とRoboTANGOの新機能追加提案や推進、検証等の作業にも携わる。
+前職では医薬部外品を取り扱う通販企業にて、Webアクセス解析やコンバージョンを上げる施策の考案や推進、ツール導入等を担当。

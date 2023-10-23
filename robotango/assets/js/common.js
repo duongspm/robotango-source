@@ -20,18 +20,22 @@ $(function () {
     var dir = url.substring(0, url.lastIndexOf('/')),
         dirRegExp = new RegExp(dir.replace(/\/$/, '') + "$");
 
-    if ($('body').hasClass("toppage")) {
-        // $('a.menuTop').addClass('is-active');
-    } else {
-        $('.nav__list > li > .nav__link').each(function () {
+    $('.menu-child__contain ul li a').each(function () {
             if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
-                $(this).addClass('is-active');
+                $(this).addClass('isActive');
             }
             if (dirRegExp.test(this.href.replace(/\/$/, ''))) {
-                $(this).addClass('is-active');
+                $(this).addClass('isActive');
             }
-        });
-    }
+        })
+    $('.nav__list .nav-menu__item').each(function () {
+        if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
+            $(this).addClass('isActive');
+        }
+        if (dirRegExp.test(this.href.replace(/\/$/, ''))) {
+            $(this).addClass('isActive');
+        }
+    });
 });
 
 // Menu Sp
