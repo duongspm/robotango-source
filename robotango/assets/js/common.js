@@ -28,7 +28,7 @@ $(function () {
                 $(this).addClass('isActive');
             }
         })
-    $('.nav__list .nav-menu__item').each(function () {
+    $('.nav__list .nav-menu__item a.nav__link').each(function () {
         if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
             $(this).addClass('isActive');
         }

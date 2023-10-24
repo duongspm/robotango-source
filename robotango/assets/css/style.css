@@ -554,7 +554,7 @@ button:focus {
     }
 
     .behind__bg {
-        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 2%, #F8F8F8 2%, #F8F8F8 100%);
+        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 5%, #F8F8F8 5%, #F8F8F8 100%);
     }
     .behind__bg::before{
         height: min(90vw, 600px);
@@ -2854,10 +2854,6 @@ footer {
     width: 31.035%;
 }
 @media (min-width: 769px) {
-    .usage-scene__item:nth-child(7 + n){
-        margin-bottom: 0;
-        background: red;
-    }
     .usage-scene__item:nth-child(3n+3){
         margin-right: 0;
     }
@@ -3642,7 +3638,7 @@ footer {
 }
 .case-detail .secondary-title {
     text-align: left;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 .case-detail .box-left .main-heading {
     text-align: left;
@@ -3658,9 +3654,9 @@ footer {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.5;
     margin-bottom: 20px;
-    padding: 8px 0 10px 0;
+    padding: 5px 0 7px 0;
     display: inline-block;
 }
 .case-detail .list-type {
@@ -4128,6 +4124,7 @@ footer {
 
     .faq-item-ques__title{
         font-size: min(4vw, 1.8rem);
+        line-height: 1.5;
         width: calc(100% - (min(12vw, 43px)));
     }
     .faq-item__btn{
@@ -4136,6 +4133,7 @@ footer {
     }
     .faq-item-answer__title{
         font-size: min(3.5vw, 1.6rem);
+        line-height: 1.5;
     }
     .faq-item-answer__inner{
         width: calc(100% - (min(13vw, 50px)));
@@ -4536,7 +4534,7 @@ footer {
 }
 
 .column-detail .column-detail-content {
-    margin-bottom: 700px;
+    /* margin-bottom: 700px; */
 }
 
 .column-detail .dflex {
@@ -4567,7 +4565,8 @@ footer {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 2.5;
+    line-height: 1.5;
+    padding: 5px 0 7px 0;
 }
 
 .column-detail .data-type span {
@@ -4582,12 +4581,12 @@ footer {
 
 .column-detail .secondary-title {
     text-align: left;
+    margin-bottom: 25px;
 }
 
 .column-detail .list-type {
     align-items: flex-end;
-    margin-bottom: 20px;
-
+    margin-bottom: 30px;
 }
 
 .column-detail .list-type li {
@@ -4598,7 +4597,8 @@ footer {
     border-radius: 3px;
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 3;
+    padding: 6px 0;
+    line-height: 1.5;
     margin-right: 20px;
 }
 
@@ -4617,7 +4617,7 @@ footer {
 .column-detail .box-bg.bg-table {
     max-width: 700px;
     margin: 60px auto 90px;
-    padding: 30px 20px 20px 40px;
+    padding: 30px 20px 20px 50px;
 }
 
 .column-detail .box-bg.bg-table .tit-txt {
@@ -4625,19 +4625,29 @@ footer {
     margin-bottom: 30px;
     font-weight: bold;
 }
-
+.column-detail .box-bg.bg2.fw-bold{
+    font-weight: bold;
+}
+.fw-bold{
+    font-weight: bold;
+}
 .column-detail .box-bg ul li {
     list-style-type: disc;
     font-size: 1.4rem;
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .column-detail .box-bg ul li h2{
     font-weight: 400;
+    transition: 0.2s linear;
 }
-
+.column-detail .box-bg ul li h2:hover{
+    color: var(--color-red);
+}
 .column-detail ul li::marker {
     color: #00235B;
+    font-size: 2rem;
+    line-height: 1;
 }
 
 .column-detail .main-heading {
@@ -4649,7 +4659,7 @@ footer {
 }
 
 .column-detail .txt-desc {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     line-height: 2;
 }
 
@@ -4689,7 +4699,8 @@ footer {
 }
 
 .column-detail .box-news-sm .box-news-sm-sub {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 30px;
 }
 
 .column-detail .box-news-sm .box-news-sm-sub .sub-tit {
@@ -4725,14 +4736,14 @@ footer {
 
 .column-detail .box-result .txt-result .tit-result {
     font-weight: bold;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .column-detail .box-result .txt-result a {
     color: #E60012;
     display: flex;
     align-items: center;
-    margin-top: 14px;
+    margin-top: 12px;
 }
 
 .column-detail .box-result .txt-result .info-txt {
@@ -4787,34 +4798,34 @@ footer {
 .column-detail table {
     width: 100%;
     margin-bottom: 30px;
+    line-height: 1.7;
 }
 
 .column-detail table th {
     text-align: center;
     background-color: #00235B;
-    padding: 8px 0;
+    padding: 8px 5px;
     font-weight: bold;
     color: #fff;
     border: 1px solid #D9D9D9;
-
 }
 
 .column-detail table tr td {
-    text-align: center;
+    /* text-align: center; */
     border: 1px solid #D9D9D9;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .column-detail table tr td:first-child {
     background-color: #F5FBFF;
-    padding: 10px 0 10px 20px;
+    padding: 10px 5px 10px min(1vw, 15px);
     font-weight: bold;
     color: #333333;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .column-detail table tr td:last-child {
-    text-align: left;
+    /* text-align: left; */
     padding-left: 20px;
 }
 
@@ -4841,6 +4852,7 @@ footer {
 
 .column-detail .block__blog {
     background-color: #F8F8F8;
+    margin-bottom: 0;
 }
 
 .column-detail .block__blog .main-heading {
@@ -4890,10 +4902,23 @@ footer {
 
 .column-detail .box-right .industry .info-industry .drop-down .drop-head img {
     margin-right: 20px;
+    width: 8px;
 }
-
+.bBlog-item__datetime .time{
+    font-weight: 400;
+    color: #606060;
+}
 /* media */
+@media (min-width: 769px) {
+    .column-detail table tr th:nth-child(1),
+    .column-detail table tr td:nth-child(1){
+        width: min(13vw, 150px);
+    }
+}
 @media (max-width: 768px) {
+    .column-detail ul li::marker {
+        font-size: 1.4rem;
+    }
     .column-detail .box-news-sm h3 {
         font-size: min(5vw, 2.2rem);
     }
@@ -4917,7 +4942,7 @@ footer {
     }
 
     .column-detail .column-detail-content {
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
 
     .column-detail .box-news-sm .box-news-sm-sub.mb160 {
@@ -4932,7 +4957,7 @@ footer {
 
     .column-detail .txt-desc,
     .column-detail .main-heading {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .column-detail .tit-h5 .title-three {
@@ -4982,6 +5007,7 @@ footer {
         padding: 10px;
     }
 }
+
 /* ==================================================================== */
 /* ============================ end column-detail ============================ */
 /* ==================================================================== */

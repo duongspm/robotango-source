@@ -1,4 +1,20 @@
 check
+
+knowledge/rpa/
+
+Link tuyệt đối:
+	出典：スターティアレイズ
+	関連記事：経理業務をRPAで効率
+	関連記事：RPAで事務業務を
+	関連記事：マーケティング業務における
+	関連記事：10分でわかるRPAとA
+	関連記事：RPAとマクロやエ
+	関連記事：失敗しないRPAツー
+table sp
+
+khoan cahc p
+
+them icon link ra ngoai
 -------------------
 
 - faq:
