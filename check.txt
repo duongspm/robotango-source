@@ -61,11 +61,14 @@ faq/index.html
 trang 1: https://arcavietnam.asia/duongg/robotango-test/
 trang 2: https://arcavietnam.asia/duongg/robotango-test/service/index.html
 trang 3: https://arcavietnam.asia/duongg/robotango-test/scene/index.html
-trang 4: https://arcavietnam.asia/duongg/robotango-test/scene/medical/index.html
-trang 5: https://arcavietnam.asia/duongg/robotango-test/case/index.html
-trang 6: https://arcavietnam.asia/duongg/robotango-test/koyotoki/index.html
+trang 4': https://arcavietnam.asia/duongg/robotango-test/scene/medical/index.html
+trang 5': https://arcavietnam.asia/duongg/robotango-test/case/index.html
+trang 6': https://arcavietnam.asia/duongg/robotango-test/koyotoki/index.html
 trang 7: https://arcavietnam.asia/duongg/robotango-test/useful/index.html
 trang 8: https://arcavietnam.asia/duongg/robotango-test/seminar/index.html
+trang 9': https://arcavietnam.asia/duongg/robotango-test/seminar/rpa-jitsuyou/
+trang 10': https://arcavietnam.asia/duongg/robotango-test/knowledge/
+trang 11': https://arcavietnam.asia/duongg/robotango-test/knowledge/rpa/
 trang 12: https://arcavietnam.asia/duongg/robotango-test/faq/index.html
 
 RoboTANGOのテクニカルエンジニアとして、営業支援や顧客へのテクニカルサポート、ヘルプセンターのコンテンツ追加などをメイン業務とし、その他、システム担当者とRoboTANGOの新機能追加提案や推進、検証等の作業にも携わる。
