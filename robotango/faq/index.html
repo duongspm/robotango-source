@@ -10,7 +10,18 @@
     <meta name="keywords" content="rpa,ツール,ソフト,よくある質問,問い合わせ">
     <meta name="description" content="RPAをご検討中のお客様からよく寄せられるご質問と回答をご紹介いたします。ご不明点やこちらに掲載されていないご質問がございましたら、大変お手数ではございますがお問い合わせフォームよりお問い合わせください。">
 
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://robotango.biz/faq">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RoboTANGO_RPA">
+    <!-- OGP -->
+    <meta property="og:title" content="よくあるご質問｜低価格で簡単に作れる国産RPAツールなら「RoboTANGO（ロボタンゴ）」">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="RPAをご検討中のお客様からよく寄せられるご質問と回答をご紹介いたします。ご不明点やこちらに掲載されていないご質問がございましたら、大変お手数ではございますがお問い合わせフォームよりお問い合わせください。">
+    <meta property="og:url" content="https://robotango.biz/faq">
+    <meta property="og:site_name" content="ReiWorQ(レイワーク)のRPAソリューション">
+    <meta property="og:image" content="https://robotango.biz/assets/imgs/common/reiworq_ogp.png">
+    <!-- END OGP -->
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,21 +39,317 @@
     <script src="../assets/vendor/js/jquery.3.4.1.min.js"></script>
     <script src="../assets/vendor/js/jquery.inview.min.js"></script>
     <script src="../assets/js/common.js"></script>
+
+    <!-- Js FAQPage-->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "RPAとは何ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RPA（アールピーエー）とは、「Robotics Process Automation（ロボティック・プロセス・オートメーション）」の略で、直訳すると「ロボットによるプロセスの自動化」という意味です。人がパソコン上で日常的に行っている業務を、ロボットが代わりに自動化し実行するソフトウェアまたはその仕組みを指します。RPAを活用することで、繰り返し作業や作業手順が決まっている定型業務などのルーティンワークを自動化でき、それによって労働時間削減、コスト削減、品質向上、業務効率化の実現が可能になります。"
+                    }
+                }, 
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGO（ロボタンゴ）とは何ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGO（ロボタンゴ）とは、誰でも簡単にRPAを作ることができる国産デスクトップ型RPAツールです。現場フレンドリーなRPAツールで初心者でも簡単に作成・運用できます。録画機能を活用し、いつものパソコン業務を操作するだけで簡単にRPAに記録させることができるため、ユーザーの技術レベルに関係なく、直感的な操作で業務の自動化・効率化が実現できます。低価格で、1ライセンスを複数のPCにインストールして利用できる「フローティングライセンス」を採用しており導入コストが抑えられるため、初めての方でも安心してスモールスタートが可能です。無料トライアルもご利用いただけますのでお気軽にお申込みください。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOは、デスクトップ型／ブラウザ型／サーバ型のどれにあたりますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOは、デスクトップ型RPAツールです。パソコンにインストールしてご利用いただくサービスとなっております。フローティングライセンスを採用しており、1ライセンスで複数台インストールしていただくことが可能です。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOはどんなことができますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOは、データ入力をはじめ、データ集計、データ加工、メール作成・送付、ファイル保存処理、通知など、パソコン上で操作できるソフトウェア・アプリケーションを使った業務の自動化が可能です。たとえば、伝票データ入力、帳票の作成、経費精算の処理、入金の消込作業、システムへの入力作業、勤怠管理、給与計算、残業時間算出、レポート作成など、さまざまな定型業務を自動化することが可能です。業務を自動化する際は、録画機能で実作業を操作するだけで覚えさせることができるため、初めての方でも簡単にRPAロボットが作成できます。"
+                    }
+                }, 
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOはどんな人が導入していますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOは、製造業、卸売・小売業、サービス業、建設業、不動産、物流・運輸業、医療・福祉など様々な業種の企業様に導入いただいております。また、初めて導入される方から情報システムやエンジニアなど専門知識をお持ちの方まで幅広くご利用いただいておりますが、RoboTANGOは利用難易度が低いため、比較的初心者の方や現場（作業担当）の方のご利用が多く見られます。 弊社ではRoboTANGO以外にもさまざまなRPAツールを取り扱っており、利用規模や自動化したい業務内容など、お客様によっておすすめさせていただくRPAツールも異なりますので、 まずはお気軽に「無料相談会」をご利用ください。 "
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "無料トライアルはありますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、RoboTANGOには無料トライアルがございます。無料トライアルのご利用をご希望の場合、「無料トライアル」フォームからお気軽にお申し込みください。RoboTANGOの無料トライアルは3週間ご利用いただけます。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOの作り方は簡単ですか？ITやプログラミングの知識がなくても使えますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、RoboTANGOならだれでも簡単にRPAを作成することが可能です。録画機能により、実業務を操作するだけでRPAを覚えさせることも可能ですのでプログラミングや専門の知識がなくても問題ございません。また、無料トライアル時からテクニカル担当によるRPA作成フォローがございますので、初めての方でもスムーズにお作りいただけます。 "
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "サポート体制はありますか？どんなサポートをしてくれますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOではさまざまなサポートサービスをご用意しております。導入前の業務診断からはじまり、操作レクチャー（ロボ作成フォロー）、ヘルプセンター、動画コンテンツ、ご契約者様向け勉強会、メールマガジンなどお客様がRPAを快適にご利用いただけるよう、導入前から導入後まで固定のサポート担当がサポート。RPAご利用にあたり、導入前から導入後まで充実したサポート体制をご提供させていただいております。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOはWindows以外のアプリケーションの操作もできますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、操作可能です。各種ブラウザ（Edge、Chrome等）adobe、メーラー、Webシステムやアプリケーション、自社内の独自システム等、PCの画面上に表示できるものであれば操作できます。ただし、Mac（Apple）のPCでは操作いただけません。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "OCRとの連携は可能ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、OCRとの連携が可能です。弊社ではAI-OCR「DX Suite」を取り扱っており、RPAと一緒にAI-OCRも検討したいという方も安心してご相談いただけます。また、別のOCRサービスとのご利用も可能です。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RPAのロボットを稼働させているとき、同じPCで違う作業はできますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "申し訳ございませんが、できません。RoboTANGOが自動化の作業を行っている最中は、他の作業はできません。RoboTANGOに限らずデスクトップ型RPAの場合、RPA稼働中のパソコンで人が作業を行うと誤動作の原因となりますのでご注意ください。しかしながら、業務時間外にスケジュール実行設定を行うか、RPA稼働専用PCを用意することで対応が可能です。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "作成できるシナリオ（ロボット）や、稼働時間、実行回数などに制限はありますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "作成できるシナリオ（RPAロボット）の数や稼働時間、実行回数に制限はございません。初期費用と月額費用以外にかかるコストはございませんので安心してご利用いただけます。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "タッチパネルの操作は記録できますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "申し訳ございませんが、できません。タッチパネルによる操作の記録及び実行は現在対応しておりません。RoboTANGOは、マウスまたはキーボードによる操作のみ記録することができます。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "インターネット接続している必要はありますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ライセンス認証時にはインターネット接続が必要となります。また、ロボット作成時・実行時にインターネットが必要なシステムにアクセスする際にも必要になります。インターネットが接続されていないパソコンに対応したRPAサービスも取り扱っておりますのでお気軽にご相談ください。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "導入までの流れを教えて下さい。",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOサービスの導入までの流れは簡単4ステップです。（1）RoboTANGOサイトにお問い合わせ（2）無料トライアルにてRPAをご利用（3）申し込みフォームよりサービスのお申し込み（4）運用開始！お申込みいただいてから数日でご利用いただけます。詳しくは「導入の流れ」をご確認ください。 "
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOの導入から運用までどれくらいの工数・期間がかかりますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOの場合、数日～数週間で運用を開始いただけます。無料トライアルご利用中に、自動化させたい業務のRPA作成フォローがございますので、そのままご利用いただく場合も多々ございます。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOの価格・費用はいくらですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOは月額制のサブスクリプションモデルを採用しております。基本プランは、初期費用100,000円、月額50,000円でご利用いただけます。また、毎月定期的にレクチャーを受けられるリモレクライトプランは初期費用150,000円、月額80,000円でご利用いただけます。プランの詳細に関しては「料金・プラン」のページをご覧いただくか、「サービス資料」をご確認くださいませ。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "サービスを契約するにあたり、最低利用期間はありますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOのご契約に関して、基本プランの最低ご利用期間は1ヶ月となっております。リモレクプランに関しては最低利用期間は6ヶ月となっております。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "支払方法は何がありますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "お支払方法は、基本「口座引き落とし」となります。別途ご相談の上、「銀行お振込み」の対応も可能です。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "契約期間中のプラン変更は可能ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "アップグレードやダウングレードなどのプラン変更に関しては、ご契約プランや利用期間により異なります。詳しくは営業担当宛てにお問い合わせいただくか、「お問い合わせフォーム」よりお問い合わせください。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "契約後、後からライセンス追加はできますか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、可能です。繁忙期などに合わせて月単位でのライセンスの増減ができますので、お気軽にご相談ください。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "バージョンアップは有償ですか？どのような手順が必要ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RoboTANGOのバージョンアップ版は無償で提供しております。Central上からダウンロードしていただくことで、ご利用いただけます。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "RoboTANGOをクライアントに提案することは可能ですか？",
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "はい、可能です。RoboTANGOでは販売パートナーを募集しております。販売パートナーには「紹介店」「取次店」「販売店」の3種類あり、パートナーの種類によって弊社の支援内容が異なってまいります。もしパートナーに関してご興味がある場合、「販売パートナーの募集」のページをご確認ください。"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body class="faq-page">
     <!-- Header -->
-    <script>parts('../','header.html');</script>
+    <header id="header">
+        <div class="container-1280">
+            <div class="header__contain">
+                <h1 class="header-logo">
+                    <a href="../index.html">
+                        <img src="../assets/imgs/common/logo.svg" width="185" height="29" alt="RoboTANGO （ロボタンゴ）">
+                    </a>
+                </h1>
+                <div id="btn-menu"><span></span><span></span><span></span></div>
+                <div class="header-wrap">
+                    <!--=============== NAV MENU ===============-->
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav-menu__item dropdown__item">
+                                <div class="nav__link dropdown__button">
+                                    <a href="../service/">RoboTANGOとは</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>RoboTANGOとは</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="../service/">RoboTANGOとは</a></li>
+                                                <li><a href="../service/#anchor04">動作実績</a></li>
+                                                <li><a href="../service/#anchor-service02">サポート体制</a></li>
+                                                <li><a href="../service/#anchor-service03">導入の流れ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="nav-menu__item dropdown__item">
+                                <div class="nav__link dropdown__button">
+                                    <a href="../scene/">活用シーン</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>活用シーン</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="#">製造</a></li>
+                                                <li><a href="#">卸売・小売（EC）</a></li>
+                                                <li><a href="#">店舗・飲食</a></li>
+                                                <li><a href="#">物流・運輸</a></li>
+                                                <li><a href="../scene/medical/">医療・福祉</a></li>
+                                                <li><a href="#">士業</a></li>
+                                                <li><a href="#">不動産</a></li>
+                                                <li><a href="#">人材サービス</a></li>
+                                                <li><a href="#">BtoCサービス</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="nav-menu__item">
+                                <a href="../plan/" class="nav__link">料金・プラン</a>
+                            </li>
+    
+                            <li class="nav-menu__item">
+                                <a href="../case/" class="nav__link">導入事例</a>
+                            </li>
+                            
+                            <li class="nav-menu__item dropdown__item">                        
+                                <div class="nav__link dropdown__button isActive">
+                                    <a href="../useful/">お役立ち情報</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>お役立ち情報</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="../useful/#anchor-useful01">IT導入補助金</a></li>
+                                                <li><a href="../seminar/">セミナー・イベント</a></li>
+                                                <li><a href="../useful/#anchor-useful02">資料ダウンロード</a></li>
+                                                <li><a href="../useful/#anchor-useful03">コラム</a></li>
+                                                <li><a href="../useful/#anchor-useful04">よくある質問</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="../contact/" class="nav__link">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-nav">
+                        <a class="btn-pill-sm btn-pill__sm--red" href="../trial/">無料トライアル</a>
+                        <a class="btn-pill-sm btn-pill__sm--darkblue" href="../downloads/1624/">サービス資料</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
     <!-- End Header -->    
 
     <!-- Main -->
     <div class="main">
         <div class="wrapper">
             <div class="container-1280">
-                <h1 class="main-title">
+                <div class="main-title">
                     <span>FAQ</span>
-                    よくあるご質問
-                </h1>
+                    <h1>よくあるご質問</h1>
+                </div>
                 <p class="main-desc">
                     <strong>
                         RPAをご検討中のお客様からよく寄せられるご質問と回答をご紹介いたします。
@@ -197,7 +504,7 @@
                                                 <p>また、初めて導入される方から情報システムやエンジニアなど専門知識をお持ちの方まで幅広くご利用いただいておりますが、RoboTANGOは利用難易度が低いため、比較的初心者の方や現場（作業担当）の方のご利用が多く見られます。
                                                     <br>
                                                     <br>弊社ではRoboTANGO以外にもさまざまなRPAツールを取り扱っており、利用規模や自動化したい業務内容など、お客様によっておすすめさせていただくRPAツールも異なりますので、
-                                                    まずはお気軽に「<a href="https://nitte.app/Q6FjVoVzufcgcJSYexafYLBUvcM2/03d8ee64" target="_blank" class="ex-link">無料相談会</a>」をご利用ください。
+                                                    まずはお気軽に「<a href="https://nitte.app/Q6FjVoVzufcgcJSYexafYLBUvcM2/03d8ee64" target="_blank" rel="noopener" class="ex-link">無料相談会</a>」をご利用ください。
                                                     </p>
                                             </div>
                                         </div>
@@ -711,7 +1018,44 @@
             </div>
             <div class="container-1280">
                 <div class="service__contact">
-                    <script>parts('../','contact.html');</script>
+                    <div class="block__contact">
+                        <h2 class="main-heading">RPAのことならお気軽に<br class="only-sp">お問い合わせください</h2>
+                        <div class="bContact__group">
+                            <div class="bContact__item bContact__item01">
+                                <h4 class="bContact-item__title">無料トライアル</h4>
+                                <div class="bContact-item__img">
+                                    <img src="../assets/imgs/common/contact-img01.jpg" alt="RoboTANGO3週間無料トライアル">
+                                </div>
+                                <a href="../trial" class="btn__download btn__download--noicon">トライアルに申し込む</a>
+                            </div>
+                            <div class="bContact__item bContact__item02">
+                                <h4 class="bContact-item__title">資料ダウンロード</h4>
+                                <div class="bContact-item__img">
+                                    <img src="../assets/imgs/common/contact-img02.jpg" alt="RoboTANGO資料ダウンロード一覧">
+                                </div>
+                                <a href="../downloads" class="btn__download">ダウンロードする</a>
+                            </div>
+                            <div class="bContact__item bContact__item03">
+                                <h4 class="bContact-item__title">お問い合わせフォーム</h4>
+                                <div class="bContact-item__img">
+                                    <img src="../assets/imgs/common/contact-img03.jpg" alt="RoboTANGOのお問い合わせフォーム">
+                                </div>
+                                <a href="../contact" class="btn__download btn__download--noicon">問い合わせる</a>
+                            </div>
+                            <div class="bContact__item bContact__item04">
+                                <h4 class="bContact-item__title">電話でのお問い合わせ</h4>
+                                <div class="bContact-item__inner">
+                                    <div class="bContact-item__icon">
+                                        <img src="../assets/imgs/common/icon-phone.svg" width="39" height="48" alt="電話でのお問い合わせ">
+                                    </div>
+                                    <a href="../tel:0120277031" class="bContact-item__tel">0120-277-031</a>
+                                    <p class="bContact-item__notetime">営業時間 9:00～18:00
+                                        <br>（土日・祝日・年末年始除く）
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -730,7 +1074,72 @@
     <!-- End page-breadcrumb -->
 
     <!-- Footer -->
-    <script>parts('../','footer.html');</script>
+    <footer>
+        <div class="container-1280">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <div class="footer-logo__top">
+                        <p class="footer-logo__title">簡単に作れる国産デスクトップ型RPAツール</p>
+                        <a href="../index.html">
+                            <img src="../assets/imgs/common/logo-footer.svg" width="200" alt="RoboTANGO">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a class="footer-nav__item" href="../index.html">トップ</a></li>
+                        <li><a class="footer-nav__item" href="#">お問い合わせ</a></li>
+                        <li><a class="footer-nav__item" href="#">無料トライアル</a></li>
+                        <li><a class="footer-nav__item" href="../service/">サービス資料</a></li>
+                        <li><a class="footer-nav__item link__icon" href="#">会社概要</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../service">RoboTANGOとは</a></li>
+                        <li><a class="footer-nav__item--child" href="../service/#anchor04">- 動作実績</a></li>
+                        <li><a class="footer-nav__item--child" href="../service/#anchor-service02">- サポート体制</a></li>
+                        <li><a class="footer-nav__item--child" href="../service/#anchor-service03">- 導入の流れ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../scene/">活用シーン</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 製造</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 卸売・小売（EC）</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 店舗・飲食</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 物流・運輸</a></li>
+                        <li><a class="footer-nav__item--child" href="../scene/medical/">- 医療・福祉</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 士業</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 不動産</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 人材サービス</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- BtoCサービス</a></li>
+                    </ul>
+                
+                    <ul>
+                        <li><a class="footer-nav__item" href="#">料金・プラン</a></li>
+                        <li><a class="footer-nav__item" href="../case/">導入事例</a></li>
+                        <li><a class="footer-nav__item" href="#">販売パートナー</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../useful/">お役立ち情報</a></li>
+                        <li><a class="footer-nav__item--child" href="../useful/#anchor-useful01">- IT導入補助金</a></li>
+                        <li><a class="footer-nav__item--child" href="../seminar">- セミナー・イベント</a></li>
+                        <li><a class="footer-nav__item--child" href="../useful/#anchor-useful02">- 資料ダウンロード</a></li>
+                        <li><a class="footer-nav__item--child" href="../useful/#anchor-useful03">- コラム</a></li>
+                        <li><a class="footer-nav__item--child" href="../useful/#anchor-useful04">- よくある質問</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright__contain">
+                <div class="copyright__nav">
+                    <a href="../law" class="copyright-nav__item">特定商取引法に基づく表記</a>
+                    <a href="../cookie" class="copyright-nav__item">Cookie等の利用について</a>
+                    <a href="https://www.startiaraise.co.jp/privacy.html" target="_blank" rel="noopener" class="copyright-nav__item link__icon">個人情報保護方針</a>
+                    <a href="https://www.startiaraise.co.jp/security.html" target="_blank" rel="noopener" class="copyright-nav__item link__icon">情報セキュリティ基本方針</a>
+                </div>
+                <p class="copyright__title">Copyright &copy; StartiaRaise, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
     <!-- End Footer -->
     
 </body>

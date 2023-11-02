@@ -1,0 +1,22 @@
+1) logo
+	   <script type="application/ld+json">
+    		{
+      		"@context": "https://schema.org",
+      		"@type": "Organization",
+      		"url": "https://www.example.com",  (**Url dc lien ket voi logo, giup xac dinh cac tep cua organization)
+      		"logo": "https://www.example.com/images/logo.png"
+   	 	}
+	    </script>
+	có thể để trang top k nhất thiết để tất cả các trang
+
+2) Article
+
+	author: có thể có type và url
+	16x9, 4x3 và 1x1. là tỉ lệ khung hình
+	"author": [
+	{
+		"@type": "Person", //hoặc "Organization" tổ chức	
+	}]
+
+3) FAQ
+	có 2 cách để gọi

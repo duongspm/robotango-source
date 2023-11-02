@@ -1,0 +1,29 @@
+assets/js/common.js
+
+case/index.html
+medical/index.html
+
+index.html
+
+txt mv top✅
+h1 ✅
+/scene/medical/✅
+Icon xanh メリット✅
+Icon đỏ デメリット✅
+scene/medical/✅
+Phia duoi cùng sua thanh h3✅
+menu, submenu(link text, click icon so xuong)✅
+link rel="canonical" ✅
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RoboTANGO_RPA">
+    <!-- OGP -->
+    <meta property="og:title" content="(PLZ SET title setting of the EXCEL file's sheet)">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="(PLZ SET description setting of the EXCEL file's sheet)">
+    <meta property="og:url" content="https://robotango.biz">
+    <meta property="og:site_name" content="ReiWorQ(レイワーク)のRPAソリューション">
+    <meta property="og:image" content="https://robotango.biz/img/common/reiworq_ogp.png">
+    <!-- END OGP -->
+こちらは弊社で自由に変更できるエリアにしてほしいです。

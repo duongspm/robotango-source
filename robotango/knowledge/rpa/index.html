@@ -11,7 +11,18 @@
     <meta name="keywords" content="rpa,とは,ロボティック・プロセス・オートメーション,Robotic Process Automation,意味,わかりやすく,解説">
     <meta name="description" content="RPA（Robotic Process Automation）とは、人間が繰り返し行う単純でルーティンな作業の業務プロセスを自動化する技術・またはソフトウェアのことです。本記事では、RPAの基礎的な知識やメリット・デメリット、仕組み、活用事例、導入方法について初心者にもわかりやすく解説します。">
 
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://robotango.biz/knowledge/rpa/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RoboTANGO_RPA">
+    <!-- OGP -->
+    <meta property="og:title" content="RPAとは？意味やメリット・デメリット、仕組み、活用事例、導入方法など初心者にもわかりやすく解説｜RPAツールなら「RoboTANGO（ロボタンゴ）」｜">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="RPA（Robotic Process Automation）とは、人間が繰り返し行う単純でルーティンな作業の業務プロセスを自動化する技術・またはソフトウェアのことです。本記事では、RPAの基礎的な知識やメリット・デメリット、仕組み、活用事例、導入方法について初心者にもわかりやすく解説します。">
+    <meta property="og:url" content="https://robotango.biz/knowledge/rpa/">
+    <meta property="og:site_name" content="ReiWorQ(レイワーク)のRPAソリューション">
+    <meta property="og:image" content="https://robotango.biz/assets/imgs/common/reiworq_ogp.png">
+    <!-- END OGP -->
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,12 +40,156 @@
     <script src="../../assets/vendor/js/jquery.3.4.1.min.js"></script>
     <script src="../../assets/vendor/js/jquery.inview.min.js"></script>
     <script src="../../assets/js/common.js"></script>
+
+    <!-- Js Article -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "RPAとは？意味やメリット・デメリット、仕組み、活用事例、導入方法など初心者にもわかりやすく解説",
+            "image": [
+                "https://robotango.biz/assets/imgs/column-detail/mainimage.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img2.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img3.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img4.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img5.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img6.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img7.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img8.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img9.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img10.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img17.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img18.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img19.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img20.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img21.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img22.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img23.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img24.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img25.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img26.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img27.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img28.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img29.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img11.jpg",
+                "https://robotango.biz/assets/imgs/column-detail/column-detail-img12.jpg"
+            ],
+            "datePublished": "2023-11-01T08:00:00+08:00",
+            "dateModified": "2023-11-01T09:20:00+08:00",
+            "author": [{
+                "@type": "Organization",
+                "name": "RoboTANGO編集部"
+            }]
+        }
+    </script>
 </head>
 
 <body class="column-detail">
 
     <!-- Header -->
-    <script>parts('../../', 'header.html');</script>
+    <header id="header">
+        <div class="container-1280">
+            <div class="header__contain">
+                <h1 class="header-logo">
+                    <a href="../../index.html">
+                        <img src="../../assets/imgs/common/logo.svg" width="185" height="29" alt="RoboTANGO （ロボタンゴ）">
+                    </a>
+                </h1>
+                <div id="btn-menu"><span></span><span></span><span></span></div>
+                <div class="header-wrap">
+                    <!--=============== NAV MENU ===============-->
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav-menu__item dropdown__item">
+                                <div class="nav__link dropdown__button">
+                                    <a href="../../service/">RoboTANGOとは</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>RoboTANGOとは</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="../../service/">RoboTANGOとは</a></li>
+                                                <li><a href="../../service/#anchor04">動作実績</a></li>
+                                                <li><a href="../../service/#anchor-service02">サポート体制</a></li>
+                                                <li><a href="../../service/#anchor-service03">導入の流れ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="nav-menu__item dropdown__item">
+                                <div class="nav__link dropdown__button">
+                                    <a href="../../scene/">活用シーン</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>活用シーン</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="#">製造</a></li>
+                                                <li><a href="#">卸売・小売（EC）</a></li>
+                                                <li><a href="#">店舗・飲食</a></li>
+                                                <li><a href="#">物流・運輸</a></li>
+                                                <li><a href="../../scene/medical/">医療・福祉</a></li>
+                                                <li><a href="#">士業</a></li>
+                                                <li><a href="#">不動産</a></li>
+                                                <li><a href="#">人材サービス</a></li>
+                                                <li><a href="#">BtoCサービス</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="nav-menu__item">
+                                <a href="../../plan/" class="nav__link">料金・プラン</a>
+                            </li>
+    
+                            <li class="nav-menu__item">
+                                <a href="../../case/" class="nav__link">導入事例</a>
+                            </li>
+                            
+                            <li class="nav-menu__item dropdown__item">                        
+                                <div class="nav__link dropdown__button isActive">
+                                    <a href="../../useful/">お役立ち情報</a> <i class="icon-downArrow"></i>
+                                </div>
+                                <div class="dropdown__container">
+                                    <div class="menu-child__outer">
+                                        <div class="menu-child__txt">
+                                            <p>お役立ち情報</p>
+                                        </div>
+                                        <div class="menu-child__contain">
+                                            <ul>
+                                                <li><a href="../../useful/#anchor-useful01">IT導入補助金</a></li>
+                                                <li><a href="../../seminar/">セミナー・イベント</a></li>
+                                                <li><a href="../../useful/#anchor-useful02">資料ダウンロード</a></li>
+                                                <li><a href="../../useful/#anchor-useful03">コラム</a></li>
+                                                <li><a href="../../useful/#anchor-useful04">よくある質問</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="../../contact/" class="nav__link">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-nav">
+                        <a class="btn-pill-sm btn-pill__sm--red" href="../../trial/">無料トライアル</a>
+                        <a class="btn-pill-sm btn-pill__sm--darkblue" href="../../downloads/1624/">サービス資料</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
     <!-- End Header -->
 
     <!-- Main -->
@@ -162,7 +317,7 @@
                         <div class="box-news-sm">
                             <h3>RPAの仕組み</h3>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img3.jpg"
-                                    width="820" height="461" alt="RPAの仕組み"></figure>
+                                    width="820" height="461" alt="RPAの仕組みについて分かりやすく解説します"></figure>
                             <p class="txt-desc">
                                 RPAは、ユーザーが作成したシナリオに沿って自動化の作業を行うソフトウェアです。<br>
                                 RPAで作業を代行させるためにはまずシナリオを作成する必要があります。<br>
@@ -195,7 +350,7 @@
                                 RPAが推進される背景には、少子高齢化による働き手不足があります。日本では、生産活動に不可欠な15歳〜64歳の生産年齢人口が減少傾向で、総務省の調査によると生産年齢人口（15歳〜64歳）は、2050年には5,275万人に減少すると見込まれています。（2021年から29.2％減）
                             </p>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img4.jpg"
-                                    width="820" height="539" alt="少子高齢化に伴う働き手（労働人口）不足"></figure>
+                                    width="820" height="539" alt="生産年齢人口のグラフ"></figure>
                             <p class="txt-desc">
                                 近い将来、生産年齢人口の減少により労働力不足が懸念されており、企業が人手を確保することがますます厳しくなってくるでしょう。人手不足解決のため、昨今では業務を自動化できるRPAの存在が大きく注目されています。
                                 
@@ -206,7 +361,7 @@
                         </div>
                         <div class="box-note">
                             <p>※出典<br>
-                                総務省「<a href="https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r04/html/nd121110.html" target="_blank" class="clr-red txt-under ex-link--icon hover">第1部　特集 情報通信白書刊行から50年～ICTとデジタル経済の変遷～</a>」より</p>
+                                総務省「<a href="https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r04/html/nd121110.html" target="_blank" rel="noopener" class="clr-red txt-under ex-link--icon hover">第1部　特集 情報通信白書刊行から50年～ICTとデジタル経済の変遷～</a>」より</p>
                         </div>
                         <div class="box-news-sm">
                             <h3>働き方改革の推進</h3>
@@ -225,7 +380,7 @@
                                 </p>
                                 <figure class="center mb30"><img
                                         src="../../assets/imgs/column-detail/column-detail-img5.jpg" width="665"
-                                        height="289" alt="RPA市場が利用拡大傾向"></figure>
+                                        height="289" alt="RPA市場におけるRPA利用拡大傾向のグラフ"></figure>
                                 <p class="txt-desc">
                                     昨今、新型コロナウイルス感染症が発生したことにより、どこの企業も経済的な圧力を受けました。しかしRPA市場は2024年までに2桁の成長率で拡大すると予測されています。クラウド型や安価なRPAツールが増えており、中小企業でも導入しやすくなっています。このような背景から、RPA市場は今後も成長し続け、企業の生産性向上や業務効率化に貢献していくことが期待されます。
                                 </p>
@@ -233,8 +388,8 @@
                         </div>
                         <div class="box-note">
                             <p>※出典<br>
-                                ・株式会社MM総研：「<a href="https://www.m2ri.jp/release/detail.html?id=391" target="_blank" class="clr-red txt-under hover ex-link--icon"><span>RPA国内利用動向調査2020</span></a>」<br>
-                                ・ガートナー社プレスリリース：「<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20200930?_fsi=6p5T1Njq" target="_blank"
+                                ・株式会社MM総研：「<a href="https://www.m2ri.jp/release/detail.html?id=391" target="_blank" rel="noopener" class="clr-red txt-under hover ex-link--icon"><span>RPA国内利用動向調査2020</span></a>」<br>
+                                ・ガートナー社プレスリリース：「<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20200930?_fsi=6p5T1Njq" target="_blank" rel="noopener"
                                     class="clr-red txt-under hover ex-link--icon">ガートナー、世界におけるRPAソフトウェアの売上高が2021年には20億ドル近くに達する見通しを発表</a>」
                             </p>
                         </div>
@@ -261,7 +416,7 @@
                         <div class="box-news-sm">
                             <h3>RPAを導入するメリット</h3>
                             <figure class="mb60"><img src="../../assets/imgs/column-detail/column-detail-img7.png"
-                                    width="820" height="461" alt="RPAを導入するメリット"></figure>
+                                    width="820" height="461" alt="RPAを導入するメリット5つを解説"></figure>
                             <div class="box-news-sm-sub">
                                 <h4 class="sub-tit">（1）自動化による業務効率化・<br class="only-sp">生産性の向上</h4>
                                 <p class="txt-desc">
@@ -334,7 +489,7 @@
                         <div class="box-news-sm">
                             <h3>RPAを導入するメリット</h3>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img8.jpg"
-                                    width="820" height="461" alt="RPAを導入するメリット"></figure>
+                                    width="820" height="461" alt="RPAが得意なことは、ルールが決まっている作業、複数のアプリケーションを横断した作業、大量のデータを扱う作業です。"></figure>
                             <div class="box-news-sm-sub">
                                 <h4 class="sub-tit">ルールが決まっている作業</h4>
                                 <p class="txt-desc">
@@ -382,7 +537,7 @@
                         <div class="box-news-sm">
                             <h3>RPAが不得意なこと</h3>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img9.jpg"
-                                    width="820" height="461" alt="RPAが不得意なこと"></figure>
+                                    width="820" height="461" alt="RPAが不得意なことは自己判断が必要な業務、複雑な処理、仕様変更が頻繁に生じる業務です。"></figure>
                             <div class="box-news-sm-sub">
                                 <h4 class="sub-tit">人間の判断を要する業務</h4>
                                 <p class="txt-desc">
@@ -523,7 +678,7 @@
                         </div>
                         <div class="box-note">
                             <p>※関連記事<br>
-                                <a href="https://robotango.biz/knowledge/knowhow/2203/" target="_blank" class="clr-red txt-under hover">初心者でも分かるRPAでできること・できないこと</a>
+                                <a href="https://robotango.biz/knowledge/knowhow/2203/" target="_blank" rel="noopener" class="clr-red txt-under hover">初心者でも分かるRPAでできること・できないこと</a>
                             </p>
                         </div>
                         <div class="box-news">
@@ -532,7 +687,7 @@
                             </div>
                             <h2 class="main-heading">RPAの主な機能</h2>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img10.jpg"
-                                    width="820" height="461" alt="RPAの主な機能"></figure>
+                                    width="820" height="461" alt="RPAの主な機能は「ロボットの作成」「ロボットの編集」「ロボットの実行」の3つです。"></figure>
                             <p class="txt-desc">
                                 <b class="clr-blue">RPAツールには主に、作業ロボット（シナリオ）作成機能、ロボット（シナリオ）編集機能、ロボット（シナリオ）の実行機能の3つの機能があります。</b>これらの機能により、人間の手作業にかかる時間やエラー率を削減し、業務の効率化を実現することが可能です。
                             </p>
@@ -611,18 +766,18 @@
                             </div>
                             <h2 class="main-heading">RPAの部門別活用例・活用方法</h2>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img17.jpg"
-                                    width="768" height="432" alt="RPAの部門別活用例・活用方法"></figure>
+                                    width="768" height="432" alt="RPAの部門別活用例、活用方法を紹介します"></figure>
                             <p class="txt-desc">
                                 <b class="clr-blue">RPAは幅広い業務に適用できるため、業種や職種を問わず導入されています。</b>2022年に当社がRPAツールに関するアンケート調査を行った結果からも、RPAツール利用ユーザーの所属部門の割合は「販売・営業部門17.8%」「情報システム部門14.8％」「総務・人事部門14.0％」「技術・研究開発部門12.8%」「製造・生産部門11.9%」「企画・広報部門7.8%」と
                                 <b class="clr-blue">全部門で平均的にRPAツールを利用している</b>ことが分かります。
                             </p>
                             <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img18.jpg"
-                                    width="768" height="432" alt="RPAの部門別活用例・活用方法"></figure>
+                                    width="768" height="432" alt="RPA利用者の所属部門の調査結果を解説したグラフ"></figure>
                             <p class="txt-desc">また別のアンケート調査で、RPAツールを継続的に仕事で利用していると答えた方を対象に、現在の役職として、もっとも近いもの何か解答してもらったところ、「一般社員クラス34.1%」「係長・主任クラス21.5％」「課長クラス19.5%」「部長クラス16.2%」「経営層・役員クラス6.2%」「パート・アルバイト・派遣社員・フリーランスなど1.8%」という結果になりました。</p>
                             <p class="txt-desc">これらの結果を踏まえながら、RPAはそれぞれの部門でどのように活用されているのか、具体的な例や活用方法についてご紹介します。</p>
                             <div class="box-note">
                                 <p>出典：スターティアレイズ<a href="https://robotango.biz/downloads/3587/"
-                                        class="clr-red txt-under hover" target="_blank">「【2022年度版】RPAツール導入に関するアンケート調査結果レポート」より</a>
+                                        class="clr-red txt-under hover" target="_blank" rel="noopener">「【2022年度版】RPAツール導入に関するアンケート調査結果レポート」より</a>
                                 </p>
                             </div>
                             <div class="box-news-sm">
@@ -656,7 +811,7 @@
                                     <p class="txt-desc">RPAを会計システムへ導入することで、データ転記作業や帳票の出力作業を自動化できます。具体的には、RPAツールを使用して、帳票の情報を自動的に読み取り、データを会計システムに転記することが可能です。また、RPAは帳票の出力作業も自動的に行うことができ、効率的な業務処理を実現します。RPAを導入することで、高速かつ正確な業務処理により従来の手作業によるヒューマンエラーを削減できるだけでなく、会計部門の業務負荷を軽減することができます。</p>
                                 </div>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/primer/423/" target="_blank" class="clr-red txt-under">経理業務をRPAで効率化！成功事例も合わせてご紹介</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/primer/423/" target="_blank" rel="noopener" class="clr-red txt-under">経理業務をRPAで効率化！成功事例も合わせてご紹介</a></p>
                                 </div>
                             </div>
                             <div class="box-news-sm">
@@ -679,7 +834,7 @@
                                     <p class="txt-desc">最後に、指定したアドレスに自動送信することで、仕入れ明細データをまとめて通知することが可能です。このようにRPAを活用することで、従来は手動で行っていた作業を自動化することができ、人的ミスの削減や業務の効率化につながります。</p>
                                 </div>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1570/" target="_blank" class="clr-red txt-under hover">RPAで事務業務を効率化！事例や活用方法をご紹介</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1570/" target="_blank" rel="noopener" class="clr-red txt-under hover">RPAで事務業務を効率化！事例や活用方法をご紹介</a></p>
                                 </div>
                             </div>
                             <div class="box-news-sm">
@@ -721,7 +876,7 @@
                                         <br>また、昨今では名刺の読み取りに特化したRPAソフトウェアも存在し、より高速で正確な名刺データの取り込みが可能になっています。これにより、業務の効率性を向上させることができ、貴重な時間を節約することもできます。</p>
                                 </div>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/case/1573/" target="_blank" class="clr-red txt-under hover">マーケティング業務におけるRPA活用とは？事例とともに解説</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/case/1573/" target="_blank" rel="noopener" class="clr-red txt-under hover">マーケティング業務におけるRPA活用とは？事例とともに解説</a></p>
                                 </div>
                             </div>
                         </div>
@@ -731,7 +886,7 @@
                                 <div id="anchor08"></div>
                             </div>
                             <h2 class="main-heading">RPAツールの種類</h2>
-                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img19.jpg" alt="RPAツールの種類" width="768" height="432"></figure>
+                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img19.jpg" alt="RPAには主に「デスクトップ（スタンドアロン）型RPA」、「クライアント/サーバー型RPA」、「クラウド型RPA」の3種類に分かれます。" width="768" height="432"></figure>
                             <p class="txt-desc">
                                 <b class="clr-blue">RPAツールには「デスクトップ（スタンドアロン）型」、「クライアント／サーバー型」、「クラウド型」の3種類あり、目的や用途によって導入すべきツールが異なります。</b>担当者規模や部門レベルでの活用であればデスクトップ型RPA、大規模な組織での活用であれば、クライアント/サーバー型RPAでの活用が多く見られます。また、クラウド型RPAは、クラウドサービス上のみでの利用に有用なツールとなっています。以下に、3種類のRPAツールの特徴や規模感、メリットなどをまとめています。
                             </p>
@@ -852,7 +1007,7 @@
                             <p class="txt-desc">次にそれぞれのRPAの特徴をまとめて解説していきます。</p>
                             <div class="box-news-sm">
                                 <h3>デスクトップ（スタンドアロン）型RPA</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img20.jpg" alt="デスクトップ（スタンドアロン）型RPA" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img20.jpg" alt="デスクトップ（スタンドアロン）型RPAとは？特長やメリットを解説します" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">デスクトップ（スタンドアロン）型RPAは、個々のパソコン上で動作する自律型ソフトウェアで、パソコン1台につきRPAロボット1体をインストールするため、パソコン毎に異なる業務を自動化させることが可能です。</b>個々の作業内容に合わせて細かく調整でき、幅広い業務に対して自動化させることができるため、担当者単位や部門単位など比較的中小規模の利用で多く導入されています。</p>
                                 <p class="txt-desc"><b class="clr-blue">デスクトップ型RPAの特徴としては、初心者でも比較的容易にRPAロボットを作成できることが挙げられます。</b>パソコン操作を録画して自動化する機能が搭載されているため、直感的な操作が可能で、専門的な知識やプログラミングスキルが必要ありません。</p>
                                 <p class="txt-desc">また、「セキュリティの高さ」もデスクトップ型RPAのメリットです。クラウド型RPAと異なり、個々のパソコン上にソフトウェアがインストールされているため、情報漏洩のリスクが低く、企業秘密などの機密情報を取り扱う場合には安心です。</p>
@@ -860,7 +1015,7 @@
                             </div>
                             <div class="box-news-sm">
                                 <h3>クライアント/サーバー型RPA</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img21.jpg" alt="クライアント/サーバー型RPA" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img21.jpg" alt="クライアント/サーバー型RPAとは？特長やメリットを解説します" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">クライアント/サーバー型RPAは、自社サーバーにRPAをインストールし動作させる仕組みで、複数部門を横断した大規模な業務プロセスの自動化に最適です。</b>また、セキュリティが非常に高いため、大手銀行・保険会社・証券会社など、規模が大きく複雑なシステムを運用する企業で導入されることが多いです。</p>
                                 <p class="txt-desc">基幹システムレベルでの利用になるため、RPAロボットの作成・運用・利用端末などはサーバーを管理している情報システム部門や開発部門が主に一元管理を行います。
                                     <br> 導入にはインフラの準備など時間と費用がかかり、運用にも高い技術力が必要となるため、中小企業には不向きです。
@@ -869,7 +1024,7 @@
                             </div>
                             <div class="box-news-sm">
                                 <h3>クラウド型RPA</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img22.jpg" alt="クラウド型RPA" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img22.jpg" alt="クラウド型RPAとは？特徴やメリットを解説します" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">クラウド型RPAは、WebサイトやSNS、Google Workspaceなどブラウザ上の業務プロセスを自動化することができます。</b>
                                     <br> クラウド型RPAのメリットとしては、RPAを動かすためのハードウェアの購入やセットアップが不要で、利用開始が早くできること、またスケーラビリティが高く、必要に応じて容易に利用規模を拡大することができる点が挙げられます。リモートワークが増える中、オフィスに行かずとも自宅からでもアクセスできるため、柔軟な働き方が可能になることもメリットの一つです。
                                 </p>
@@ -879,7 +1034,7 @@
                                 <p class="txt-desc">一方で、ブラウザ上の作業に限定されてしまい、デスクトップ型PRAやクライアント／サーバー型RPAのようにローカル環境での業務の自動化はできないためカスタマイズ性は高くありません。また、インターネット接続が不安定な場合、RPAの処理速度に影響が出るリスクもあります。クラウド上にデータが保存されるため、情報セキュリティのリスクが増大することも懸念されます。データのセキュリティについては、十分な対策を講じる必要があります。</p>
                                 <div class="box-note">
                                     <p>関連記事：<a href="https://robotango.biz/knowledge/primer/903/"
-                                            class="clr-red txt-under hover" target="_blank">サーバー型RPAとデスクトップ型RPAの違い</a>
+                                            class="clr-red txt-under hover" target="_blank" rel="noopener">サーバー型RPAとデスクトップ型RPAの違い</a>
                                     </p>
                                 </div>
                             </div>
@@ -890,7 +1045,7 @@
                                 <div id="anchor09"></div>
                             </div>
                             <h2 class="main-heading">RPAの3つのクラスとは</h2>
-                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img23.jpg" alt="RPAの3つのクラスとは" width="768" height="432"></figure>
+                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img23.jpg" alt="PRAのクラスとは？RPA・EPA・CAの3つのクラスを解説します" width="768" height="432"></figure>
                             <p class="txt-desc">総務省は、業務プロセス自動化に関するレポートの中で、RPAを3つのクラスに分類し、それぞれ自動化のレベルを提示しています。<b class="clr-blue">RPAにおける「クラス1」は定型業務の自動化、「クラス2」は一部非定型業務の自動化で、「クラス3」は高度な自律化です。</b>
                                 それぞれのクラスにおいて、自動化される業務プロセスのレベルや難易度が上がり、企業が取り入れる際の課題も異なってきます。</p>
                             <div class="box-news__table box-news__table--sm">
@@ -917,7 +1072,7 @@
                                 </table>
                             </div>
                             <div class="box-note">
-                                <p>出典：<a href="https://www.soumu.go.jp/menu_news/s-news/02tsushin02_04000043.html" class="clr-red txt-under link-share hover" target="_blank"><span>総務省「RPA（働き方改革：業務自動化による生産性向上）」より </span><img src="../../assets/imgs/column-detail/link.png" width="10" height="10" alt="icon image">  </a></p>
+                                <p>出典：<a href="https://www.soumu.go.jp/menu_news/s-news/02tsushin02_04000043.html" class="clr-red txt-under link-share hover" target="_blank" rel="noopener"><span>総務省「RPA（働き方改革：業務自動化による生産性向上）」より </span><img src="../../assets/imgs/column-detail/link.png" width="10" height="10" alt="icon image">  </a></p>
                             </div>
                             <div class="box-news-sm">
                                 <h3>クラス1：RPA</h3>
@@ -953,7 +1108,7 @@
                             <p class="txt-desc">RPAとよく間違われるキーワード「RDA」「AI」「ITシステム」「VBA」について解説します。それぞれの違いを比較することで、特徴を掴んでおきましょう。</p>
                             <div class="box-news-sm">
                                 <h3>RPAとRDA（Robotic Desktop Automation）の違い</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img24.jpg" alt="RPAとRDA（Robotic Desktop Automation）の違い" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img24.jpg" alt="RPAとRDAの違いとは" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">RDA（Robotic Desktop Automation=ロボティック・デスクトップ・オートメーション）とRPAは両者とも自動化ツールですが、目的や特徴が異なります。</b></p>
                                 <p class="txt-desc">RPAが業務プロセス全体の自動化を目的としているのに対し、RDAは個人のタスクを効率化することを目的としています。<br> RPAは企業におけるルーティンなビジネスプロセスを自動化し、業務全体の効率化を図ります。RDAは個人がより迅速で正確にタスクを処理するために自動化するもので、個人の業務効率向上に役立ちます。</p>
                                 <p class="txt-desc">また、サーバーにインストールし複数のパソコンをまたいで業務を自動化できるのがRPAで、個々のパソコンにインストールして自動化するソフトウェアはRDAだとも言われており、デスクトップ型RPAをRDAと呼ぶこともあります。</p>
@@ -961,29 +1116,29 @@
                             </div>
                             <div class="box-news-sm">
                                 <h3>RPAとAIの違い</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img25.jpg" alt="RPAとAIの違い" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img25.jpg" alt="RPAとAIの違いとは？" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">RPAとAI（Artificial Intelligence）はどちらも自動化技術ですが、特徴が異なります。</b></p>
                                 <p class="txt-desc">RPAは、定型業務や反復業務などルーティンな業務プロセスを自動化することに特化した技術またはソフトウェアであり、ルールに基づきRPAロボットが自動的に操作してタスクを処理します。一方、AI（Artificial Intelligence）は、機械学習や自然言語処理、画像認識などの技術を組み合わせて、データから自動的に知識を獲得し学習するため、自ら推論や判断を行うことが可能です。</p>
                                 <p class="txt-desc">つまり、RPAはあらかじめ決められたルールに基づく業務プロセスの自動化に特化し、AIは高度な自動化技術でデータの解析や自律的な意思決定に特化しており、より複雑な業務プロセスの自動化に適しています。</p>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/155/" class="clr-red txt-under hover" target="_blank">10分でわかるRPAとAIの違い！仕組みや特長を詳しく解説</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/155/" class="clr-red txt-under hover" target="_blank" rel="noopener">10分でわかるRPAとAIの違い！仕組みや特長を詳しく解説</a></p>
                                 </div>
                             </div>
                             <div class="box-news-sm">
                                 <h3>RPAとITシステムの違い</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img26.jpg" alt="RPAとITシステムの違い" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img26.jpg" alt="RPAとITシステムの違いとは？" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">RPAとITシステム（Information Technology System）の違いとは、RPAが人間が行う定型業務の自動化に特化しているのに対し、ITシステムはビジネスプロセスの自動化やデータ管理、ネットワークシステム、情報の共有化など企業の業務を支援するために幅広い用途で使われます。</b></p>
                                 <p class="txt-desc">また、ITシステムは企業の業務要件に合わせて機能拡張やシステム全体のカスタマイズが可能ですが、社内で構築する場合はエンジニアによる開発・構築が必要です。そのため導入期間も長くコストも高額になります。<br> RPAは一般的にRPAソフトを活用するため、ITシステムの導入コストよりは安価で短期間の運用が可能ですが、業務を自動化する仕組みに特化しており、柔軟性はやや制限されます。</p>
                                 <p class="txt-desc">RPAはITシステムに統合されることもありますが、本質的には異なるシステムになります。</p>
                             </div>
                             <div class="box-news-sm">
                                 <h3>RPAとVBA（マクロ機能）の違い</h3>
-                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img27.jpg" alt="RPAとVBA（マクロ機能）の違い" width="768" height="432"></figure>
+                                <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img27.jpg" alt="RPAとVBAの違いとは？" width="768" height="432"></figure>
                                 <p class="txt-desc"><b class="clr-blue">RPAとVBA（Visual Basic for Applications）は、どちらも自動化を目的とするツールですが、その使い方や範囲に違いがあります。</b><br>VBAとは、ExcelやWord、AccessなどMicrosoft Officeのアプリケーションの機能を拡張できるプログラミング言語で、Microsoft Officeに標準搭載されています。VBAを活用することでより効率的に業務をこなすことが可能になります。<br> 例えば、VBAを用いたプログラムを実行することで「データ処理の自動化」「転記作業の自動化」「報告書・レポート作成の自動化」「メールの送信」「WEBサイトのデータ収集・分析」などが可能になります。ただし、前述の通り、Microsoft Office製品内での自動化のみに限定されます。</p>
                                 <p class="txt-desc">一方、RPAは、業務プロセスを自動化できるシステムで、VBAと比べてより高度で広範囲な自動化を目的として活用されます。また、ExcelやWordなどMicrosoft Officeのアプリケーションだけでなく、Webアプリケーションや基幹システム、SFA/CRMなど、様々なシステムとの連携も可能です。</p>
                                 <p class="txt-desc">例えば製品データをシステムから自動的に収集し、Excelファイルに書き込むまでをRPAで自動化し、その後VBAを使用して、ExcelやAccessにてデータの加工作業を行いメールを自動的に作成し、送信するという活用方法も可能です。</p>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/977/" class="clr-red txt-under hover" target="_blank">RPAとマクロやエクセルVBAとの違いは？</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/977/" class="clr-red txt-under hover" target="_blank" rel="noopener">RPAとマクロやエクセルVBAとの違いは？</a></p>
                                 </div>
                             </div>
                         </div>
@@ -993,7 +1148,7 @@
                                 <div id="anchor11"></div>
                             </div>
                             <h2 class="main-heading">RPAの導入方法・手順</h2>
-                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img28.jpg" alt="RPAの導入方法・手順" width="768" height="432"></figure>
+                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img28.jpg" alt="RPAの導入手順・方法をわかりやすく解説します。" width="768" height="432"></figure>
                             <p class="txt-desc">RPAの導入は、業務の自動化による効率化や品質向上を目的として、多くの企業で進められています。ここでは、RPAの導入方法・手順について解説します。</p>
                             <div class="box-news-sm">
                                 <h3>1.自動化したい既存業務とフローの洗い出し</h3>
@@ -1016,7 +1171,7 @@
                                 <p>最初にRPAツールを導入する際には、小規模で運用し、効果を検証することが重要です。そうすることで、問題が発生した場合に素早く修正できます。また、自動化された業務が機能していることを確認し、その後大規模な展開を検討することができます。</p>
                             </div>
                             <div class="box-note">
-                                <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/2367/" class="clr-red txt-under hover" target="_blank">RPA導入のメリット・デメリットや導入手順を詳しく解説</a></p>
+                                <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/2367/" class="clr-red txt-under hover" target="_blank" rel="noopener">RPA導入のメリット・デメリットや導入手順を詳しく解説</a></p>
                             </div>
                         </div>
                         <!--/ end 13-->
@@ -1025,7 +1180,7 @@
                                 <div id="anchor12"></div>
                             </div>
                             <h2 class="main-heading">失敗しないRPAツールの選び方とポイント7つ</h2>
-                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img29.jpg" alt="失敗しないRPAツールの選び方とポイント7つ" width="768" height="432"></figure>
+                            <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img29.jpg" alt="失敗しないRPAツールの選び方とポイント7つを紹介します。" width="768" height="432"></figure>
                             <p class="txt-desc">RPAを導入するにあたり、失敗しないためには適切なツールの選定が重要です。ここでは、RPAツールの選び方とポイントを7つ紹介します。</p>
                             <div class="box-news-sm">
                                 <h3>1.導入目的や課題解決に適したRPAツールを選ぶ</h3>
@@ -1089,7 +1244,7 @@
                                     <p>クラウド型RPAは、インターネットを介して提供される自動化サービスであり、Webブラウザ上限定で自動化が実行されます。主に中小企業を対象としており、初期費用は10〜50万円程度、月額費用は10万円〜30万円程度です。初期費用はデスクトップ型より高い傾向がありますが、ネット環境があれば簡単に開始できる利便性が魅力です。月額費用は、シナリオの実行回数に応じて従量課金されるケースもあり、想定より高額になることがあるため注意が必要です。多くのクラウド型RPAツールが無料体験版を提供していることも特徴の一つです。</p>
                                 </div>
                                 <div class="box-note">
-                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1733/" class="clr-red txt-under hover" target="_blank">RPAの導入コストはどのくらい？費用の相場や目安をご紹介</a></p>
+                                    <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1733/" class="clr-red txt-under hover" target="_blank" rel="noopener">RPAの導入コストはどのくらい？費用の相場や目安をご紹介</a></p>
                                 </div>
                             </div>
                             <div class="box-news-sm">
@@ -1105,7 +1260,7 @@
                                 <p>RoboTANGOは、低価格で導入・運用することができるデスクトップ型RPAツールで、初心者でも簡単に利用でき、多様な業務に対応する柔軟性があります。録画機能を使うことで、いつもの実業務を操作するだけで簡単にRPAに記録させることができるため、ユーザーの技術レベルに関係なく、直感的な操作で業務の自動化を実現することが可能です。RoboTANGOなら初めてのRPA導入でも安心して利用することが可能です。</p>
                             </div>
                             <div class="box-note">
-                                <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1853/" class="clr-red txt-under hover" target="_blank">失敗しないRPAツールの選び方完全解説！基礎知識からおすすめのツールまで紹介</a></p>
+                                <p>関連記事：<a href="https://robotango.biz/knowledge/knowhow/1853/" class="clr-red txt-under hover" target="_blank" rel="noopener">失敗しないRPAツールの選び方完全解説！基礎知識からおすすめのツールまで紹介</a></p>
                             </div>
                         </div>
                         <!--/ end 14-->
@@ -1126,7 +1281,7 @@
                                 <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img11.jpg"
                                         width="820" height="461" alt="WinActor（ウィンアクター）"></figure>
                                 <p class="txt-desc">
-                                    「<a href="https://winactor.com/" target="_blank" class="clr-red link-share ">
+                                    「<a href="https://winactor.com/" target="_blank" rel="noopener" class="clr-red link-share ">
                                             <span>WinActor®（ウィンアクター）</span>
                                             <img src="../../assets/imgs/column-detail/link.png" width="13" height="13" alt="icon image">    
                                     </a>」は、株式会社NTTデータが提供するRPAツールです。デスクトップ型であり、情報システムや開発などの専門部署向けに設計されています。WinActorは、Windowsベースのシステムやアプリケーションに対応しており、マウスやキーボードの操作を自動化することが可能です。
@@ -1182,9 +1337,9 @@
                             <div class="box-news-sm">
                                 <h3>RoboTANGO（ロボタンゴ）</h3>
                                 <figure class="mb30"><img src="../../assets/imgs/column-detail/column-detail-img12.jpg"
-                                        width="820" height="461" alt="RoboTANGO（ロボタンゴ）"></figure>
+                                        width="820" height="461" alt="国産デスクトップ型RPA「RoboTANGO（ロボタンゴ）」"></figure>
                                 <p class="txt-desc">
-                                    「<a href="https://robotango.biz/" target="_blank"
+                                    「<a href="https://robotango.biz/" target="_blank" rel="noopener"
                                         class="clr-red link-share "><span>RoboTANGO（ロボタンゴ）</span><img
                                             src="../../assets/imgs/column-detail/link.png" width="13" height="13"
                                             alt="icon image"></a>」は、スターティアレイズ株式会社が提供するデスクトップ型の国産RPAツールです。このツールは、1ライセンスを複数のPCにインストールして利用できる「フローティングライセンス」を採用しており、導入コストを抑えられます。また、知識がなくても誰でも簡単に作成できるため、RPA初心者でも使いやすいのが特徴です。<br>
@@ -1300,9 +1455,9 @@
                     <div class="box-right">
                         <div class="banner">
                             <a href="../../downloads/1624/"><img src="../../assets/imgs/column-detail/column-detail-img14.jpg" width="350"
-                                    height="250" alt="robotango"></a>
+                                    height="250" alt="RPAツール「RoboTANGO(ロボタンゴ)」サービス資料"></a>
                             <a href="../../downloads/3763/"><img src="../../assets/imgs/column-detail/column-detail-img15.jpg" width="350"
-                                    height="250" alt="robotango"></a>
+                                    height="250" alt="【RPA活用事例】経理部門の業務を効率化"></a>
                         </div>
                         <div class="industry">
                             <p class="industry-tit">カテゴリー</p>
@@ -1356,32 +1511,32 @@
                         <div class="bBlog__item">
                             <a href="#" class="bBlog-item__img">
                                 <img src="../../assets/imgs/column-detail/column-detail-img16.jpg" width="380" height="220"
-                                    alt="基礎知識">
+                                    alt="RPAとは？意味やメリット・デメリット、仕組み、活用事例、導入方法など初心者にもわかりやすく解説">
                             </a>
                             <div class="bBlog-item__content">
                                 <p class="bBlog-item__datetime">基礎知識<span class="time">　|　2023.06.22</span></p>
-                                <h2 class="bBlog-item__name"><a href="#">RPAとは？意味やメリット・デメリット、仕組み、活用事例、導入方法など初心者にもわかりやすく解説</a></h2>
+                                <a class="bBlog-item__name" href="#">RPAとは？意味やメリット・デメリット、仕組み、活用事例、導入方法など初心者にもわかりやすく解説</a>
                             </div>
                         </div>
                         <div class="bBlog__item">
                             <a href="#" class="bBlog-item__img">
                                 <img src="../../assets/imgs/column-detail/column-detail-dummy.jpg" width="380" height="220"
-                                    alt="基礎知識">
+                                    alt="同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。">
                             </a>
                             <div class="bBlog-item__content">
 
                                 <p class="bBlog-item__datetime">基礎知識<span class="time">　|　2023.06.21</span></p>
-                                <h2 class="bBlog-item__name"><a href="#">同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。</a></h2>
+                                <a class="bBlog-item__name" href="#">同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。</a>
                             </div>
                         </div>
                         <div class="bBlog__item">
                             <a href="#" class="bBlog-item__img">
                                 <img src="../../assets/imgs/column-detail/column-detail-dummy.jpg" width="380" height="220"
-                                    alt="基礎知識">
+                                    alt="同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。">
                             </a>
                             <div class="bBlog-item__content">
                                 <p class="bBlog-item__datetime">基礎知識<span class="time">　|　2023.05.17</span></p>
-                                <h2 class="bBlog-item__name"><a href="#">同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。</a></h2>
+                                <a class="bBlog-item__name" href="#">同じカテゴリーの最新の関連記事が入ります。同じカテゴリーの最新の関連記事が入ります。</a>
                             </div>
                         </div>
                     </div>
@@ -1406,7 +1561,72 @@
 
 
     <!-- Footer -->
-    <script>parts('../../', 'footer.html');</script>
+    <footer>
+        <div class="container-1280">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <div class="footer-logo__top">
+                        <p class="footer-logo__title">簡単に作れる国産デスクトップ型RPAツール</p>
+                        <a href="../../index.html">
+                            <img src="../../assets/imgs/common/logo-footer.svg" width="200" alt="RoboTANGO">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a class="footer-nav__item" href="../../index.html">トップ</a></li>
+                        <li><a class="footer-nav__item" href="#">お問い合わせ</a></li>
+                        <li><a class="footer-nav__item" href="#">無料トライアル</a></li>
+                        <li><a class="footer-nav__item" href="../../service/">サービス資料</a></li>
+                        <li><a class="footer-nav__item link__icon" href="#">会社概要</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../../service">RoboTANGOとは</a></li>
+                        <li><a class="footer-nav__item--child" href="../../service/#anchor04">- 動作実績</a></li>
+                        <li><a class="footer-nav__item--child" href="../../service/#anchor-service02">- サポート体制</a></li>
+                        <li><a class="footer-nav__item--child" href="../../service/#anchor-service03">- 導入の流れ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../../scene/">活用シーン</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 製造</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 卸売・小売（EC）</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 店舗・飲食</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 物流・運輸</a></li>
+                        <li><a class="footer-nav__item--child" href="../../scene/medical/">- 医療・福祉</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 士業</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 不動産</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- 人材サービス</a></li>
+                        <li><a class="footer-nav__item--child" href="#">- BtoCサービス</a></li>
+                    </ul>
+                
+                    <ul>
+                        <li><a class="footer-nav__item" href="#">料金・プラン</a></li>
+                        <li><a class="footer-nav__item" href="../../case/">導入事例</a></li>
+                        <li><a class="footer-nav__item" href="#">販売パートナー</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="footer-nav__item" href="../../useful/">お役立ち情報</a></li>
+                        <li><a class="footer-nav__item--child" href="../../useful/#anchor-useful01">- IT導入補助金</a></li>
+                        <li><a class="footer-nav__item--child" href="../../seminar">- セミナー・イベント</a></li>
+                        <li><a class="footer-nav__item--child" href="../../useful/#anchor-useful02">- 資料ダウンロード</a></li>
+                        <li><a class="footer-nav__item--child" href="../../useful/#anchor-useful03">- コラム</a></li>
+                        <li><a class="footer-nav__item--child" href="../../useful/#anchor-useful04">- よくある質問</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright__contain">
+                <div class="copyright__nav">
+                    <a href="../../law" class="copyright-nav__item">特定商取引法に基づく表記</a>
+                    <a href="../../cookie" class="copyright-nav__item">Cookie等の利用について</a>
+                    <a href="https://www.startiaraise.co.jp/privacy.html" target="_blank" rel="noopener" class="copyright-nav__item link__icon">個人情報保護方針</a>
+                    <a href="https://www.startiaraise.co.jp/security.html" target="_blank" rel="noopener" class="copyright-nav__item link__icon">情報セキュリティ基本方針</a>
+                </div>
+                <p class="copyright__title">Copyright &copy; StartiaRaise, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
     <!-- End Footer -->
 
 </body>
